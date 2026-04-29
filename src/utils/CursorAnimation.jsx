@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
+
 export default function CustomCursor() {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
   const [cursorSize, setCursorSize] = useState(32); // Default size
