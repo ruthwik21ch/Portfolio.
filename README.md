@@ -5,6 +5,7 @@
 A modern and responsive portfolio website built using **React**, **TailwindCSS**, and **Framer Motion**.
 ---
 
+
 ## 🌟 Website Sections
 
 - **Home**: Developer introduction with avatar and short description  
