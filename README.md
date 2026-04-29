@@ -37,23 +37,12 @@ A modern and responsive portfolio website built using **React**, **TailwindCSS**
 ---
 
 
-## 🚀 How to Use / Customize
-
- **Clone the repository:**
-```bash
-git clone https://github.com/Saboo24/portofolio13.git
-```
- ---
-
 ## 📬 Contact
 
-- Email: aminehamzaoui1925@gmail.com   
-- Location: Boumerdès, Algeria  
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-amine-hamzaoui-a2453a35b/)  
-- GitHub: [GitHub](https://github.com/Saboo24)  
-- Instagram: [Instagram](https://www.instagram.com/a__m.i.n__e/?utm_source=ig_web_button_share_sheet)
-
+- Email: chruthwik3@gmail.com   
+- Location: India  
+- GitHub: [GitHub](https://github.com/ruthwik21ch)  
 ---
 
-Made with ❤️ by **Amine Hamzaoui**
+Made with ❤️ by **Ruthwik Chikatimalla**
 
