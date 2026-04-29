@@ -78,7 +78,7 @@ export default function Contact() {
               </motion.button>
 
               <div className='flex gap-3'>
-                {[BiLogoGmail, IoLogoLinkedin, IoLogoTwitter, BsGithub].map((Icon, index) => (
+                {[BiLogoGmail, IoLogoLinkedin, BsGithub].map((Icon, index) => (
                   <motion.a
                     key={index}
                     href="#"
@@ -126,7 +126,7 @@ export default function Contact() {
               <span className='border border-gray-300 p-2 rounded-full group-hover:bg-red-600 group-hover:text-white transition'>
                 <IoMdMail />
               </span>
-              youremail@gmail.com
+              chruthwik3@gmail.com
             </motion.a>
 
             <motion.a
@@ -137,7 +137,7 @@ export default function Contact() {
               <span className='border border-gray-300 p-2 rounded-full group-hover:bg-red-600 group-hover:text-white transition'>
                 <FaPhone />
               </span>
-              1234567890
+              81256390xx
             </motion.a>
 
           </div>

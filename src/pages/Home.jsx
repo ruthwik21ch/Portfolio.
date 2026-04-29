@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { IoLogoLinkedin, IoLogoTwitter } from "react-icons/io5";
+import { IoLogoLinkedin } from "react-icons/io5";
 import { BiLogoGmail } from "react-icons/bi";
 import { BsGithub } from "react-icons/bs";
 import { TypeAnimation } from "react-type-animation";
@@ -18,82 +18,51 @@ export default function Home() {
           transition={{ duration: 1 }}
         >
 
-          <motion.div
-            className="text-2xl lg:text-5xl flex flex-col mt-8 lg:mt-0 gap-3 lg:gap-6"
-            initial="hidden"
-            animate="visible"
-            variants={{
-              hidden: { opacity: 0, y: 20 },
-              visible: {
-                opacity: 1,
-                y: 0,
-                transition: { staggerChildren: 0.2 },
-              },
-            }}
-          >
+          <div className="text-2xl lg:text-5xl flex flex-col mt-8 lg:mt-0 gap-3 lg:gap-6">
 
-            {/* NAME */}
-            <motion.h2 variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}>
+            <h2>
               Hello,{" "}
               <span className="text-red-500 font-extrabold">
                 <TypeAnimation
-                  sequence={["I am Amine", 1500]}
+                  sequence={["I am Ruthwik", 1500]}
                   speed={20}
                   repeat={Infinity}
                 />
               </span>
-            </motion.h2>
+            </h2>
 
-            {/* ROLE */}
-            <motion.h2 variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}>
-              <span className="font-extrabold text-red-500">Fullstack</span>{" "}
-              <span className="font-extrabold text-black">
-                Developer
-              </span>
-            </motion.h2>
+            <h2>
+              <span className="font-extrabold text-red-500">Python</span>{" "}
+              Developer
+            </h2>
 
-            {/* LOCATION */}
-            <motion.h2 variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}>
-              Based In <span className="font-extrabold text-red-500">Algeria</span>
-            </motion.h2>
+            <h2>
+              Based in{" "}
+              <span className="font-extrabold text-red-500">India</span>
+            </h2>
 
-          </motion.div>
+          </div>
 
-          {/* DESCRIPTION */}
-          <motion.p
-            className="text-gray-500 text-sm lg:text-base mt-6 leading-relaxed"
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5 }}
-          >
-            Passionate about technology, I specialize in Web Development and Web Designing.
-            I build modern, high-performance applications and continuously improve my skills
-            to create impactful digital experiences.
-          </motion.p>
+          <p className="text-gray-500 text-sm lg:text-base mt-6 leading-relaxed">
+            I am a Computer Science student passionate about building modern web
+            applications. I focus on creating fast, responsive, and user-friendly
+            digital experiences using the latest technologies.
+          </p>
 
-          {/* SOCIAL ICONS */}
-          <motion.div
-            className="flex items-center gap-x-5 mt-10 lg:mt-14"
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.8 }}
-          >
-            {[BiLogoGmail, IoLogoLinkedin, IoLogoTwitter, BsGithub].map((Icon, index) => (
-              <motion.a
-                key={index}
-                href="#"
-                className="border border-gray-300 p-3 rounded-full text-gray-600 bg-white"
-                whileHover={{
-                  scale: 1.1,
-                  borderColor: "#ef4444",
-                  color: "#ef4444",
-                }}
-                whileTap={{ scale: 0.9 }}
-              >
-                <Icon className="w-5 h-5" />
-              </motion.a>
-            ))}
-          </motion.div>
+          {/* SOCIALS */}
+          <div className="flex items-center gap-x-5 mt-10 lg:mt-14">
+            <a href="chruthwik3@gmail.com" className="border p-3 rounded-full hover:text-red-500">
+              <BiLogoGmail />
+            </a>
+
+            <a href="https://linkedin.com/in/ruthwik-chikatimalla-11530033a" target="_blank" className="border p-3 rounded-full hover:text-red-500">
+              <IoLogoLinkedin />
+            </a>
+
+            <a href="https://github.com/ruthwik21ch" target="_blank" className="border p-3 rounded-full hover:text-red-500">
+              <BsGithub />
+            </a>
+          </div>
         </motion.div>
 
         {/* RIGHT IMAGE */}

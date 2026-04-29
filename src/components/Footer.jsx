@@ -6,13 +6,13 @@ export default function Footer() {
 
       {/* TEXT LOGO */}
       <h2 className='text-black text-lg lg:text-2xl font-extrabold tracking-widest cursor-pointer'>
-        <span className='text-red-600 drop-shadow-[0_0_4px_rgba(239,68,68,0.4)]'>A</span>MINE
+        <span className='text-red-600 drop-shadow-[0_0_4px_rgba(239,68,68,0.4)]'>R</span>uthwik
       </h2>
 
       {/* TEXT */}
       <div className='text-gray-600 lg:font-semibold lg:text-sm font-normal text-[10px] text-right lg:space-y-3'>
-        <p>© 2026 Personal Portfolio</p>
-        <p className='hover:text-red-600 transition'>Made by -AC</p>
+        <p>© Personal Portfolio</p>
+        <p className='hover:text-red-600 transition'>Made by Ruthwik</p>
       </div>
 
     </div>

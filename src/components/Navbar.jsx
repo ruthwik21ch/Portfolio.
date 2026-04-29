@@ -44,7 +44,7 @@ export default function Navbar() {
           className="text-2xl lg:text-3xl font-extrabold cursor-pointer tracking-widest"
           whileHover={{ scale: 1.1 }}
         >
-          <span className="text-red-600">A</span>MINE
+          <span className="text-red-600">R</span>UTHWIK
         </motion.h1>
 
         <ul className="hidden lg:flex items-center gap-x-7 font-semibold">
@@ -60,7 +60,7 @@ export default function Navbar() {
 
         {/* 🔥 BUTTON */}
         <motion.a
-          href=""
+          href="resume.pdf"
           className="hidden relative lg:inline-block px-4 py-2 font-medium group"
         >
           <span className="absolute inset-0 w-full h-full transition transform translate-x-1 translate-y-1 bg-red-600 group-hover:translate-x-0 group-hover:translate-y-0"></span>

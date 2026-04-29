@@ -5,24 +5,24 @@ import { motion } from 'framer-motion';
 const projects = [
   {
     id: 1,
-    title: "Ecommerce Website",
-    description: "A modern ecommerce platform with product management, cart system, and secure checkout experience.",
+    title: "Medical Ecommerce Website",
+    description: "Developed a full-stack web application that enables users to browse medicines, manage prescriptions, and place orders through an intuitive interface. Implemented secure authentication, cart management, and order tracking using React Context API for state management. Integrated AI-powered features including a chatbot and prescription scanner to assist users in identifying medicines and obtaining information. Built an admin dashboard for managing medicines and monitoring platform activity. The frontend was developed using React and TypeScript with Vite for optimized performance, while the backend server handles database operations and API services..",
     image: "/assets/cel.jpg",
-    link: "#"
+    link: "https://github.com/ruthwik21ch/Medigen"
   },
   {
     id: 2,
-    title: "Hangman Game",
-    description: "A fun interactive Hangman game built with clean UI and smooth logic handling.",
+    title: "NewsFeed Application",
+    description: "A News Application that retrieves news from newsapi and delivers real time news.Developed a desktop-based news reader application using Python and Tkinter that fetches real-time news headlines through the NewsAPI. Implemented a user authentication system with SQLite database support for secure login and registration. The application displays news articles with images, titles, and descriptions, and includes navigation features to browse multiple articles. Integrated text-to-speech functionality using pyttsx3 to enable voice-assisted news reading. Users can also open full articles in a web browser for detailed reading.",
     image: "/assets/game.png",
-    link: "https://github.com/Saboo24/hangman"
+    link: "https://github.com/ruthwik21ch/NewsFeed"
   },
   {
     id: 3,
-    title: "Portfolio Website",
-    description: "A personal portfolio showcasing my skills, projects, and experience with a modern UI design.",
+    title: "SteganoPro Application",
+    description: "Steganography based application that encode and decode the data inside a image.Developed a desktop-based steganography application using Python and Tkinter that enables users to securely hide and extract secret messages within image files. Implemented image processing techniques with the Pillow library to encode and decode data without visibly altering the image. The application provides a simple and user-friendly interface for both encryption and decryption operations. Added optional password protection to enhance data security. Designed the system to support common image formats and ensure efficient and reliable data concealment",
     image: "/assets/port.png",
-    link: "https://github.com/Saboo24/Portfolio8"
+    link: "https://github.com/ruthwik21ch/SteganoPro"
   }
 ];
 
